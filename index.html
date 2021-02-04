@@ -1,0 +1,145 @@
+<html lang="es">
+<head>
+    <!-- Permite carácteres extraños del alfabeto americano: ñ, á, é... -->
+    <meta charset="utf-8">
+    <!--Título que aparecerá en la pestaña - La estructura será el nombre de la página actual + Descripción del sitio-->
+    <title>Portfolio Lidia</title>
+    <!-- Icono que acompañará al title. También será el icono que se guardará a la hora de que hagan un marcador. Se recomienda un tamaño de 32x32 y en PNG	-->
+    <link rel="icon" type="image/png" href="icono.png">
+    <!-- (Opcional) Sugiere un color al navegador para personalizar la ventana -->
+    <meta name="theme-color" content="#003f88">
+    <!-- Bloquea el zoom en smartphones-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <!--Declara quien es el autor. Sin utilidad práctica -->
+    <meta name="author" content="Lidia Moscoso">
+    <!-- (Opcional) Indica con que tecnologias se ha generado el HTML -->
+    <meta name="generator" content="Clojure">
+    <!-- Declara palabras claves -->
+    <meta name="keywords" content="portfolio, trabajos, diseño, web">
+    <!-- Declara la descripción de la web. Es utilizado por los motores de busqueda para la previa -->
+    <meta name="description" content="Portfolio personal de Lidia Moscoso donde podrá ver trabajos realizados por mi.">
+    <!-- Open Graph y Twitter card: Declara como se mostrará la previa del enlace si es compartida por Facebook o alguna otra red social -->
+    <meta property="og:image" content="img/miniatura.png">
+    <meta property="og:title" content="Portfolio">
+    <!-- website, video, audio, article, book o profile -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.imdb.com/title/tt0117500/">
+    <!-- Open Graph Imagen completa (Opcional) -->
+    <meta property="og:image:secure_url" content="https://secure.example.com/ogp.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <meta property="og:image:alt" content="Portfolio personal Lidia">
+    <!-- Normalizador: Equilibra los estilos entre los Navegadores -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Tus archivos CSS -->
+    <link href="css/desktop.css" rel="stylesheet" media="all and (min-width: 600px)">
+    <link href="css/mobile.css" rel="stylesheet" media="all and (max-width: 600px)">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="titulo">Portfolio Lidia</h1>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <img
+                class="img_lidia"
+                src="img/lidia.jpg"
+                alt="chica"
+        >
+        <div class="redes__sociales">
+            <ul class="nav__ul">
+                <li class="nav__item">
+                    <a href="https://www.instagram.com/lidiamoscosotrabajo/">
+                        <img
+                                src="img/instagram.png"
+                                alt="camara"
+                                class="img_redes"
+                        >
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://www.linkedin.com/in/lidia-mar%C3%ADa-moscoso-cabello-953879184/">
+                        <img
+                                src="img/linkedin.png"
+                                alt="letras"
+                                class="img_redes"
+                        >
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="item_lista">
+            <ul class="ul">
+                <li class="item"><a href="#Realización"><h1 class="item_link">Realización</h1></a></li>
+                <li class="item"><a href="#Diseño Web"><h1 class="item_link">Diseño Web</h1></a></li>
+                <li class="item"><a href="#Diseño Gráfico"><h1 class="item_link">Diseño Gráfico</h1></a></li>
+            </ul>
+        </div>
+            <section class="muestra">
+                <h2 class="muestra_subtitulo" id="Realización">Realización</h2>
+                <hr class="separacion">
+                <p class="muestra_texto">Grabación y edición de este proyecto.<br><span class="italic">(link foto)</span></p>
+                <a class="muestra_link" href="https://www.youtube.com/watch?v=_k7XUg6-9wo&feature=youtu.be&ab_channel=Lidiam">
+                    <img src="img/aspersor.JPG" alt="letras" class="img_muestra">
+                </a>
+                <p class="muestra_texto">Participé en este cortometraje como técnica de sonido.<br><span class="italic">(link foto)</span></p>
+                <a class="muestra_link" href="https://www.notodofilmfest.com/film/walkie-talkie/?mode=grid">
+                    <img src="img/corto.jpg" alt="walkie" class="img_muestra">
+                </a>
+                <p class="muestra_texto">Showreel de la productora User T38<br><span class="italic">(link foto)</span></p>
+                <a class="muestra_link" href="https://www.youtube.com/watch?v=lN5srGWMPN8&ab_channel=Lidiam">
+                    <img src="img/showreel.PNG" alt="hombre" class="img_muestra">
+                </a>
+            </section>
+            <section class="muestra">
+                <h2 id="Diseño Web" class="muestra_subtitulo">Diseño Web</h2>
+                <hr class="separacion">
+                <p class="muestra_texto">Realicé la carta para la versión móvil de la cafetería sonríe. <br> <span class="italic">(link foto)</span></p>
+                <a href="https://cafeteriasonrie.000webhostapp.com/">
+                    <img src="img/desayuno.png" alt="taza" class="img_muestra">
+                </a>
+                <p class="muestra_texto">Blog temático de terror (diseño, información, HTML). <br><span class="italic">(link foto)</span></p>
+                <a class="muestra_link" href="http://zzblog.atwebpages.com/index.html">
+                    <img src="img/blog.jpg" alt="letras con fondo rojo" class="img_muestra">
+                </a>
+            </section>
+            <section class="muestra">
+                <h2 id="Diseño Gráfico" class="muestra_subtitulo">Diseño Gráfico</h2>
+                <hr class="separacion">
+                    <img
+                            src="img/lidia_estaticoo.jpg"
+                            alt="letras"
+                            class="img_diseño"
+                    >
+                    <img
+                        src="img/ilustracion_familia.jpg"
+                        alt="chicas"
+                        class="img_diseño"
+                    >
+
+                    <img
+                            src="img/lidia_portada.jpg"
+                            alt="niños"
+                            class="img_diseño"
+                    >
+                    <img
+                        src="img/ilustracion.png"
+                        alt="globos"
+                        class="img_diseño"
+                    >
+                    <img
+                            src="img/montaje.jpg"
+                            alt="submarino"
+                            class="img_diseño-final"
+                    >
+            </section>
+    </div>
+</main>
+<footer class="footer">
+    <a class="footer__link" href="#">Volver arriba</a>
+</footer>
+</body>
+</html>
